@@ -7,9 +7,26 @@ body{
 	padding: 0;
 }
 
+:root 
 
 /*=======End =======*/
 
+.navbar {
+	background-color: white;
+	height: 80px;
+}
+
+.navbar .navbar-nav{
+	justify-content: center;
+	text-align: right;
+}
+
+.navbar .navbar-nav a{
+	color: red;
+}
+
+
+/*=====End=====*/
 
 .home .carousel-item{
 	min-height: 100vh;
