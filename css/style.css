@@ -11,14 +11,86 @@ body{
 
 }
 
-:root 
+/*===Section ====*/
+
+section h1{
+	margin-left: 80px;
+	
+}
+
+
+
+
+
+
+/*====End Section =====*/
+
+:root {
+	--header-height: 3.5rem; /*56px*/
+
+  /*========== Colors ==========*/
+  /*Color mode HSL(hue, saturation, lightness)*/
+  --hue: 152;
+  --first-color: hsl(var(--hue), 24%, 32%);
+  --first-color-alt: hsl(var(--hue), 24%, 28%);
+  --first-color-light: hsl(var(--hue), 24%, 66%);
+  --first-color-lighten: hsl(var(--hue), 24%, 92%);
+  --title-color: hsl(var(--hue), 4%, 15%);
+  --text-color: hsl(var(--hue), 4%, 35%);
+  --text-color-light: hsl(var(--hue), 4%, 55%);
+  --body-color: hsl(var(--hue), 0%, 100%);
+  --container-color: #FFF;
+
+  /*========== Font and typography ==========*/
+  /*.5rem = 8px | 1rem = 16px ...*/
+  --big-font-size: 2rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1rem;
+  --normal-font-size: .938rem;
+  --small-font-size: .813rem;
+  --smaller-font-size: .75rem;
+
+  /*========== Font weight ==========*/
+  --font-medium: 500;
+  --font-semi-bold: 600;
+
+  /*========== Margenes Bottom ==========*/
+  /*.5rem = 8px | 1rem = 16px ...*/
+  --mb-0-5: .5rem;
+  --mb-0-75: .75rem;
+  --mb-1: 1rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+  --mb-2-5: 2.5rem;
+
+  /*========== z index ==========*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}
+
+/* Responsive typography */
+@media screen and (min-width: 968px) {
+  :root {
+    --big-font-size: 3.5rem;
+    --h1-font-size: 2.25rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: .875rem;
+    --smaller-font-size: .813rem;
+  }
+}
+
 
 /*=======End =======*/
 
-
-
+/*Navbar*/
 
 /*=====End=====*/
+
+
+/*=====Home Section=====*/
 
 .home .carousel-item{
 	min-height: 100vh;
@@ -158,3 +230,46 @@ body{
 
 
 
+/*====End Home ======*/
+
+/*===main===*/
+
+#main {
+	padding: 90px;
+	overflow: hidden;
+}
+
+/*===end main===*/
+
+
+/*=====About ====*/
+.about-section .section-title{
+	margin-bottom: 60px;
+	margin-top: -40px;
+	color: black;
+	transition: ease-in-out;
+}
+
+.section-title:before{
+	content: "";
+	position: absolute;
+	left: 80px;
+	bottom: -105px;
+	margin-left: 89px;
+	right: 0;
+	width: 100px;
+	height: 3px;
+	background: dodgerblue;
+} 
+
+.about-section .header-inner{
+	margin-left: -150px;
+	width: 100%;
+	display: flex;
+}
+
+
+/*=====About Section ====*/
+img {
+	width: 70%;
+}
