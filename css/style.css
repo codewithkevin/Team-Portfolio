@@ -283,15 +283,27 @@ section h1{
 	.header-inner::before{
 		content: "";
 		position: absolute;
-		bottom: -470px;
+		bottom: -500px;
 		width: 100px;
 		height: 3px;
 		background: dodgerblue;
 	}
+	
+	.about-section .header-inner{
+		margin-top: 50px;
+	}
+	
+
 }
 
 
 /*=====About Section ====*/
 img {
-	width: 70%;
+	width: 100%;
+}
+
+@media (max-width: 765px){
+	img {
+		width: 120%;
+	}
 }
