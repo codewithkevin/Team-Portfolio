@@ -267,16 +267,27 @@ section h1{
 .about-section .header-inner{
 	font-family: 'Ubuntu', sans-serif;
 	text-transform: uppercase;
+	margin-bottom: 50px;
 }
 
 .header-inner::before{
 	content: "";
 	position: absolute;
-	
-	right: 0;
-	width: 100px;
+	bottom: -200px;
+	width: 400px;
 	height: 3px;
 	background: dodgerblue;
+}
+
+@media (max-width:756px) {
+	.header-inner::before{
+		content: "";
+		position: absolute;
+		bottom: -470px;
+		width: 100px;
+		height: 3px;
+		background: dodgerblue;
+	}
 }
 
 
