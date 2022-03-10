@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.container{
+  overflow-x: hidden;
+}
+
+/* === NAVBAR SECTION === */
+
+.navbar-toggler {
+  box-shadow: none !important;
+}
+.fa-bars {
+  font-size: 2rem;
+}
+
+button.navbar-toggler {
+  border: none;
+}
+i.fa.fa-bars {
+  color: #fff;
+  font-size: 2rem;
+}
+a.nav-link {
+  color: white;
+  font-size: 1.2rem;
+}
+img {
+  width: 100%;
+}
+
+/* === SKILLS SECTION === */
+
+a{
+  text-decoration: none;
+}
+
+/* === SOCIAL LINKS SECTION === */
+* SOCIAL LINKS */
+
+.social-link {
+  text-align: center;
+  justify-content: space-evenly;
+  box-sizing: inline;
+  padding: 25px 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.social-link img {
+  height: 40px;
+  margin: 15px;
+  cursor: pointer;
+}
+.social-link p {
+  padding-bottom: 0px;
+}
+i.fab.fa-facebook-f {
+  color: black;
+  padding: 0 5px;
+  font-size: 22px;
+}
+i.fab.fa-facebook-f:hover {
+  color: hsl(221, 89%, 41%);
+}
+i.fab.fa-twitter {
+  color: black;
+  padding: 0 5px;
+  font-size: 22px;
+}
+i.fab.fa-twitter:hover {
+  color: hsl(207, 93%, 46%);
+}
+i.fab.fa-instagram {
+  color: black;
+  font-size: 22px;
+  padding: 0 5px;
+}
+i.fab.fa-instagram:hover {
+  color: rgba(197, 4, 4, 0.575);
+}
+i.fab.fa-github {
+  color: black;
+  font-size: 22px;
+  padding: 0 5px;
+}
+i.fa.fa-envelope {
+    color: black;
+    font-size: 22px;
+    padding: 0 5px;
+}
+i.fa.fa-envelope:hover {
+    color: rgba(197, 4, 4, 0.575);
+}
+i.fab.fa-youtube {
+    font-size: 1.5rem;
+    color: black;
+    padding: 0 5px;
+}
+i.fab.fa-youtube:hover {
+    color: red;
+}
+
