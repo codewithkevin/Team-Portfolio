@@ -1,150 +1,304 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Team Project</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
-<body>
+  <head>
+    <title>Team Project</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="fonts/css/all.min.css" />
+    <link rel="stylesheet" href="fonts/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="img/3d-plastilina-side-view-of-pinterest-logo.png" type="image/x-icon">
+  </head>
+  <body>
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
 
+    <!-- FIXME: <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 "> -->
 
-  <!--Navigation Bar-->
-  <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
-    <div class="container">
-      <a href="#" class="navbar-brand">Team Squad</a>
+      <!-- TODO:KELVIN PLEASE REMOVE THE FIXED-TOP CLASS FROM THE NAV-BAR -->
 
-      <button title="Tittle" class="navbar-toggler" type="button"  data-bs-toggle="collapse" data-bs-target="#navmenu">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+      <div class="container">
+        <a href="#" class="navbar-brand">Team Squad</a>
 
-      <div class="collapse navbar-collapse" id="navmenu">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a href="#learn" class="nav-link">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="#questions" class="nav-link">About</a>
-          </li>
-          <li class="nav-item">
-            <a href="#instructors" class="nav-link">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a href="#instructors" class="nav-link">Contactu</a>
-          </li>
-        </ul>
+        <button
+          title="Tittle"
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <!-- <span class="navbar-toggler-icon"></span> -->
+           <i class="fa fa-bars" aria-hidden="true"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="#learn" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#questions" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#instructors" class="nav-link">Team</a>
+            </li>
+            <li class="nav-item">
+              <a href="#instructors" class="nav-link">Contact Us</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
 
-  <!--End Navigation Bar-->
+    <!--End Navigation Bar-->
 
-  <!--=============HOME Section===========-->
-  <section class="home">
+    <!--=============HOME Section===========-->
+    <section class="home">
       <div id="carousel" class="carousel slide" data-ride="carousel">
-      <div class="carousel-controls">
-        <ol class="carousel-indicators">
-          <li data-target="#carousel" data-slide-to="0" class="active" style="background-image:url('img/3d-plastilina-reddit-1.png')"></li>
-          <li data-target="#carousel" data-slide-to="1" style="background-image:url('img/3d-plastilina-side-view-of-pinterest-logo.png')"></li>
-          <li data-target="#carousel" data-slide-to="2" style="background-image:url('img/3d-plastilina-side-view-of-purple-facebook-logo.png')"></li>
-          <li data-target="#carousel" data-slide-to="3" style="background-image:url('img/3d-plastilina-side-view-of-twitter-logo.png')"></li>
-          
-        </ol>
-        <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
-      </a>
-      <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
-      </a>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active" style="background-image:url('img/3d-plastilina-reddit-1.png')">
-          <div class="container">
-            <h2>I am Kevin</h2>
-            <p>Web Developer</p>
-          </div>
+        <div class="carousel-controls">
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carousel"
+              data-slide-to="0"
+              class="active"
+              style="background-image: url('img/black.gif')"
+            ></li>
+            <li
+              data-target="#carousel"
+              data-slide-to="1"
+              style="
+                background-image: url('img/sonny\ 2.jpeg');
+              "
+            ></li>
+            <li
+              data-target="#carousel"
+              data-slide-to="2"
+              style="
+                background-image: url('img/tuga.jpg');
+              "
+            ></li>
+            <li
+              data-target="#carousel"
+              data-slide-to="3"
+              style="
+                background-image: url('img/3d-plastilina-side-view-of-twitter-logo.png');
+              "
+            ></li>
+          </ol>
+          <a
+            class="carousel-control-prev"
+            href="#carousel"
+            role="button"
+            data-slide="prev"
+          >
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carousel"
+            role="button"
+            data-slide="next"
+          >
+          </a>
         </div>
-        <div class="carousel-item" style="background-image:url('img/3d-plastilina-side-view-of-pinterest-logo.png')">
-          <div class="container">
-            <h2>I am Samuel</h2>
-            <p>Web Developer</p>
-          </div>
-        </div>
-        <div class="carousel-item" style="background-image:url('img/3d-plastilina-side-view-of-purple-facebook-logo.png')">
-          <div class="container">
-            <h2>I am Samuel</h2>
-            <p>Mobile Application Developer</p>
-          </div>
-        </div>
-        <div class="carousel-item" style="background-image:url('img/3d-plastilina-side-view-of-twitter-logo.png')">
-          <div class="container">
-            <h2>I am Bishop</h2>
-            <p>Software Developer</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!---End Home Section-->
-
-  <main id="main">
-
-    <!--About Us-->
-    <section class="about-section">
-      <div class="section-title">
-        <h1>ABOUT US</h1>
-      </div>
-
-      <div class="container-fluid">
-
-        <div class="row">
-
-          <div class="col-lg-6">
-            <img src="./img/About.png" alt="#">
-          </div>
-
-
-          <div class="col-lg-6">
-            <div class="header-inner">
-              <h3>Web Developers and Software Enginners</h3>
-
-            </div>
-
-            <div class="row">
-              <div class="col-sm-3">
-                <ul>
-                  <li>HOME</li>
-                  <li>HOME</li>
-                  <li>HOME</li>
-                </ul>
-              </div>
-
-              <div class="col-sm-3">
-                <ul>
-                  <li>HOME</li>
-                  <li>HOME</li>
-                  <li>HOME</li>
-                </ul>
-              </div>
+        <div class="carousel-inner">
+          <div
+            class="carousel-item active"
+            style="background-image: url('img/3d-plastilina-reddit-1.png')"
+          >
+            <div class="container">
+              <h2>I am Kevin</h2>
+              <p>Web Developer</p>
             </div>
           </div>
+          <div
+            class="carousel-item sonny"
+            style="
+              background-image: url('img/3d-plastilina-side-view-of-pinterest-logo.png');
+            "
+          >
+            <div class="container">
+              <h2>I am Sonny</h2>
+              <p>Developer and Youtuber</p>
+            </div>
+          </div>
+          <div
+            class="carousel-item"
+            style="
+              background-image: url('img/3d-plastilina-side-view-of-twitter-logo.png');
+            "
+          >
+            <div class="container">
+              <h2>I am Samuel</h2>
+              <p>Mobile Application Developer</p>
+            </div>
+          </div>
+          <div
+            class="carousel-item"
+            style="
+              background-image: url('img/3d-plastilina-side-view-of-purple-facebook-logo.png');
+            "
+          >
+            <div class="container">
+              <h2>I am Bishop</h2>
+              <p>Software Developer</p>
+            </div>
+          </div>
         </div>
-
-        
       </div>
-
     </section>
 
+    <!---End Home Section-->
+
+    <main id="main">
+      <!--About Us-->
+      <section class="about-section">
+        <div class="section-title">
+          <h1>ABOUT US</h1>
+        </div>
+
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="./img/About.png" alt="#" />
+            </div>
 
 
+            <!-- TODO: KELVIN ADD SOME LITTLE INFORMATION ABOUT THE TEAM MEMBERS -->
+            <div class="col-md-6">
+                <!-- <h3 class="team-squad text-center fs-1 mt-3">Team Squad</h3> -->
+                <p class="team-squad mt-3 text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium eveniet nulla quis vel delectus molestias ipsam nesciunt mollitia dolor doloribus cumque labore, id beatae unde minus repudiandae earum, animi fuga!</p>
+              </div>
 
-  <!---End About-->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!---End About-->
+    </main>
 
 
+    <!-- === TEAM MEMBERS SECTION STARTS === -->
+<h1 class="text-center" id="instructors">Team</h1> 
+    <section class="text-center">
+      <div class="container">
+          <div class="row">
+              
+               <!-- TEAM MEMBERS CARD SECTION STARTS HERE -->
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col-md-4">
+    <div class="card">
+      <img src="img/sonny 2.jpeg" class=" rounded-circle card-img-top mx-auto p-1" alt="..." style="height: auto; width: 200px;">
+      <div class="card-body">
+        <h5 class="card-title">Sonny</h5>
+        <p class="card-text"> I'm a developer and Youtuber with passion for creating beautiful
+            and functional websites and apps. I also run the <a href="https://www.youtube.com/c/SonnyTechAcademy" class="channel">Sonnytech Academy</a> Youtube Channel. I work with lots of programming
+            languages and frameworks. I'm currently working learning React.js and some backend technologies.
+            </p>
 
-  </main>
+             <!-- Social links -->
+          <div class="social-link">
+            <p>Let's get social</p>
 
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-<script src="js/bootstrap.bundle.min.js"></script>
-</body>
+            <a href="mailto:samuelagbenyo067@gmail.com" target="_blank"
+              ><i class="fa fa-envelope" aria-hidden="true"></i
+            ></a>
+            <a href="https://twitter.com/AgbenyoOfficial" target="_blank"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/samuelagbenyo_official/"
+              target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="https://github.com/Sonnysam/Sonny" target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+             <a href="https://www.youtube.com/c/SonnyTechAcademy" target="_blank"
+              ><i class="fab fa-youtube"></i
+            ></a>
+          <br>
+            <a href="https://samuel-agbenyo.netlify.app/"><button class="btn btn-outline-primary mt-1">CV</button></a>
+          </div>
+
+           <!-- Social links Ends Here -->
+
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card">
+      <img src="img/tuga.jpg" class=" rounded-circle card-img-top mx-auto p-1" alt="..." style="height: auto; width: 200px;">
+      <div class="card-body">
+        <h5 class="card-title">Sammy</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+           <!-- Social links -->
+          <div class="social-link">
+            <p>Let's get social</p>
+            <a href=""><button class="btn btn-outline-primary mt-1">CV</button></a>
+           
+          </div>
+
+           <!-- Social links Ends Here -->
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card">
+       <img src="img/3d-plastilina-side-view-of-purple-facebook-logo.png" class=" rounded-circle card-img-top mx-auto p-1" alt="..." style="height: auto; width: 200px;">
+      <div class="card-body">
+        <h5 class="card-title">Kevin</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+           <!-- Social links -->
+          <div class="social-link">
+            <p>Let's get social</p>
+            <a href=""><button class="btn btn-outline-primary mt-1">CV</button></a>
+
+          </div>
+
+           <!-- Social links Ends Here -->
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card">
+       <img src="img/3d-plastilina-side-view-of-pinterest-logo.png" class=" rounded-circle card-img-top mx-auto p-1" alt="..." style="height: auto; width: 200px;">
+      <div class="card-body">
+        <h5 class="card-title">Bishop</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+           <!-- Social links -->
+          <div class="social-link">
+            <p>Let's get social</p>
+            <a href=""><button class="btn btn-outline-primary mt-1">CV</button></a>
+          </div>
+
+           <!-- Social links Ends Here -->
+      </div>
+    </div>
+  </div>
+</div>
+
+        <!-- SKILLS  CARD SECTION ENDS HERE -->
+          </div>
+      </div>
+    </section>
+
+    <!-- JAVASCRIPT LINK -->
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- JQUERY CDN -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
