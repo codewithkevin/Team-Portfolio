@@ -90,9 +90,7 @@ section h1{
 	text-transform: uppercase;
 }
 
-.navbar ul li a:hover{
-	color: dodgerblue;
-}
+
 
 /*=====End=====*/
 
@@ -333,8 +331,8 @@ img {
 }
 
 #team .social-link i{
-	color: dodgerblue;
+	color: rgba(0, 0, 0, 0.993);
 }
 #team .social-link i:hover {
-	color: black;
+	color: dodgerblue;
 }
