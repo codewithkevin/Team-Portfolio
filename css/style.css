@@ -21,6 +21,10 @@ section h1{
 }
 
 
+
+
+
+
 /*====End Section =====*/
 
 :root {
@@ -123,8 +127,7 @@ section h1{
 .home .carousel-item p{
 	font-size: 30px;
 	margin:0;
-	color: rgb(30, 248, 255);
-	font-weight: bolder;
+	color: #eeeeee;
 	opacity:0;
 }
 .home .carousel-item.active h2{
