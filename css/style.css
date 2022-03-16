@@ -294,6 +294,16 @@ section h1{
 	}
 
 }
+/* This is to give the about-us texts some padding when on a 
+large screen so that it would not be like its on a single line */
+@media (min-width: 896px){
+	.about-team{
+		padding: 0% 10%;
+	}
+}
+.card-container{
+	padding: 5px 0;
+}
 
 
 /*=====About Section ====*/
