@@ -306,8 +306,24 @@ img {
 	width: 100%;
 }
 
-@media (max-width: 765px){
+@media (max-width: 775px){
 	img {
-		width: 120%;
+		width: 300%;
 	}
+}
+
+/*===== TEAM SECTION ======*/
+#team h1 {
+	text-decoration: underline;
+	text-decoration-color: dodgerblue;
+	justify-content: center;
+	text-align: center;
+	font-weight: 900em;
+}
+
+#team .social-link i{
+	color: dodgerblue;
+}
+#team .social-link i:hover {
+	color: black;
 }
