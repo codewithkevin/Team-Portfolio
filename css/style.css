@@ -82,6 +82,17 @@ section h1{
 /*=======End =======*/
 
 /*Navbar*/
+.navbar ul li a{
+	text-align: center;
+	margin-left: 20px;
+	margin-right: 50px;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+
+.navbar ul li a:hover{
+	color: dodgerblue;
+}
 
 /*=====End=====*/
 
